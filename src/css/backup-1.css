@@ -1,0 +1,72 @@
+/* ------------ GENERAL CSS ------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-image: linear-gradient(#002a39 75%, black);
+	background-repeat: no-repeat;
+	height: 100vh; 
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.particles-body {
+    position: relative;
+    background-image: linear-gradient(#000000, #002a39);
+    overflow: hidden;
+    height: 25vh;
+    width: 100vw;
+    
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ------------ PARTICLES CSS ------------ */
+
+#particles-js {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ------------ HIDDEN CSS ------------ */
+
+.hidden {
+    display: none
+}
+.bg-dark {
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+/* ------------ PAGE MSG CSS ------------ */
+
+.ms {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+	width: 100%; 
+	height: auto;
+	overflow: hidden;
+	transform: translate(0, -10%);
+}
+
+.container {
+	color: white;
+}
+.headerBoxL {
+	border-bottom: 1px solid white;
+	padding-bottom: 1%;
+}
+.infoBoxL {
+	padding-top: 3%;
+}
