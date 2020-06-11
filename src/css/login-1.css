@@ -1,0 +1,90 @@
+body {
+    background: #eee !important;
+    overflow-y: hidden;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+.wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.form-signin {
+  max-width: 580px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.header{
+    font-size: 35px;
+    margin-bottom: 8%;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+    font-size: 20px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 26px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn {
+    font-size: 25px;
+}
+
+/* ------------ FORM RADIUS CSS ------------ */
+
+.form-control {
+    border-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.topcurve {
+    border-top-left-radius: 0.25em !important;
+    border-top-right-radius: 0.25em !important;
+}
+
+.bottomcurve {
+    border-bottom-right-radius: 0.25em !important;
+    border-bottom-left-radius: 0.25em !important;
+}
