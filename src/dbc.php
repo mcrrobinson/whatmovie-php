@@ -1,8 +1,8 @@
 <?php
-$host = "10.169.0.177";
-$user = "whatmovi_mattr";
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
 $password = getenv("DB_PASS");
-$dbase = "whatmovi_project";
+$dbase = getenv("DB_NAME");
 $table = "userInfo"; 
 $connection= mysqli_connect ($host, $user, $password, $dbase);
 if (!$connection)
